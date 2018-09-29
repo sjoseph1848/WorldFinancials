@@ -99,21 +99,23 @@ a {
   display: block;
   font-family: sans-serif;
 }
+/* Added new images to the opening page */
 #west {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/927610/ISSlRnm.png)
-    no-repeat top center;
+  background: url('../img/pre08.jpg') no-repeat top center;
   background-size: cover;
 }
 #east {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/927610/man_guy_jumping_levitate_railing-1407739.jpg)
-    no-repeat center top;
+  background: url('../img/post08.jpg') no-repeat center top;
   background-size: cover;
+  /* Added new images to the opening page */
 }
 #west .content {
-  background: rgba(25, 235, 248, 0.5);
+  /* background: rgba(25, 235, 248, 0.5); */
+  background: rgba(100, 0, 0, 0.5);
 }
 #east .content {
-  background: rgba(234, 210, 24, 0.5);
+  /* background: rgba(234, 210, 24, 0.5); */
+  background: rgba(120, 120, 120, 0.5);
 }
 /*-----------------*/
 /***** Hover *****/
