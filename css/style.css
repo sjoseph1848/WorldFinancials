@@ -205,13 +205,16 @@ a {
 .product-content {
   font-size: 1.4rem;
   padding: 10%;
-  display: table-cell;
-  vertical-align: middle;
+  /* display: table-cell;
+  vertical-align: middle; */
 }
 .price {
-  color: #34d5cf;
   margin: 1vw 0;
 }
+.chart {
+  margin: 100vw 0;
+}
+
 .currency {
   font-weight: 700;
   font-size: 1rem;
@@ -220,6 +223,10 @@ a {
   font-size: 1.6rem;
   vertical-align: top;
   font-family: sans-serif;
+}
+
+.grid .column .container .chart {
+  display: flex;
 }
 /* button */
 .buy-button {
