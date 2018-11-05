@@ -203,7 +203,7 @@ a {
   height: 100%;
 }
 .product-content {
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding: 10%;
   /* display: table-cell;
   vertical-align: middle; */
@@ -215,8 +215,7 @@ a {
   margin: 100vw 0;
 }
 .gdp {
-  font-size: 1.4rem;
-  padding: 10%;
+  margin: 1vw 0;
 }
 
 .currency {
