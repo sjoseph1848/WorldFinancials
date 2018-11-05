@@ -1,7 +1,7 @@
 //Chart Options
 const options = {
   chart: {
-    height: 350,
+    height: 650,
     width: 650,
     type: 'bar',
     background: '#f4f4f4',
@@ -9,7 +9,7 @@ const options = {
   },
   series: [
     {
-      name: 'Population',
+      name: 'Debt In 2008',
       data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     }
   ],
@@ -39,12 +39,12 @@ const options = {
     enabled: false
   },
   title: {
-    text: 'Largest US Cities by Population',
+    text: 'Debt in 2008 (in billions)',
     align: 'center',
-    margin: 20,
+    margin: 10,
     offsetY: 20,
     style: {
-      fontSize: '25px'
+      fontSize: '20px'
     }
   }
 };
