@@ -1,5 +1,5 @@
 //Chart Options
-const options = {
+const choices = {
   chart: {
     height: 350,
     width: 500,
@@ -9,8 +9,8 @@ const options = {
   },
   series: [
     {
-      name: 'Debt In 2008',
-      data: [191.81, 109.42, 74.54, 72.85, 68.06, 64.93]
+      name: 'Debt In 2015',
+      data: [247.98, 176.94, 69.07, 105.15, 96.14, 70.99]
     }
   ],
   xaxis: {
@@ -35,7 +35,7 @@ const options = {
     enabled: false
   },
   title: {
-    text: 'Debt in 2008 (GDP to Debt Ratio)',
+    text: 'Debt in 2015 (GDP to Debt Ratio)',
     align: 'center',
     margin: 10,
     offsetY: 20,
@@ -46,9 +46,9 @@ const options = {
 };
 //Init Chart
 //two inputs 'where it is going- chart, then options above
-const chart = new ApexCharts(document.querySelector('#chart'), options);
+const bars = new ApexCharts(document.querySelector('#bars'), choices);
 //Render Chart
-chart.render();
+bars.render();
 setTimeout(function() {
-  chart.update();
+  bars.update();
 }, 1000);

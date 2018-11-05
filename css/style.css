@@ -214,10 +214,13 @@ a {
 .chart {
   margin: 100vw 0;
 }
-.gdp {
-  margin: 1vw 0;
+p {
+  font-size: 400px;
 }
 
+#bars {
+  padding: 10%;
+}
 .currency {
   font-weight: 700;
   font-size: 1rem;
@@ -358,13 +361,13 @@ a {
 }
 /* Now you see it */
 .close-icon div::before {
-  background: none repeat scroll 0 0 #34d5cf;
+  background: none repeat scroll 0 0 #f13c05;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
 /* Now you don't */
 .close-icon div::after {
-  background: none repeat scroll 0 0 #ead918;
+  background: none repeat scroll 0 0 #0e0c01;
   opacity: 0;
   transform: translate3d(100%, 0px, 0px);
 }
